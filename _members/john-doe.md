@@ -1,6 +1,6 @@
 ---
 name: John Doe
-image: images/photo.jpg
+image: images/dank.jpg
 role: Postgraduate Student
 group: alum
 links:
