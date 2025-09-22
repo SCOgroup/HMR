@@ -1,32 +1,32 @@
 @charset "UTF-8";
 [data-dark=false] {
-  --primary: #003366; /* 深蓝，学术感强 */
-  --secondary: #4a6fa5; /* 次要蓝灰色 */
-  --text: #1a1a1a; /* 深灰，减少强对比 */
-  --background: #ffffff; /* 白色背景 */
-  --background-alt: #f5f5f5; /* 论文风格的灰底 */
-  --light-gray: #d9d9d9;
+  --primary: #003366; /* 深蓝作为强调色（按钮、链接、标题） */
+  --secondary: #4a6fa5; /* 次要蓝灰 */
+  --text: #222222; /* 深灰文字，比纯黑更柔和 */
+  --background: #ffffff; /* 主背景白色 */
+  --background-alt: #f8f9fb; /* 卡片/分区浅灰，层次感 */
+  --light-gray: #e5e5e5;
   --gray: #7a7a7a;
   --dark-gray: #3a3a3a;
-  --overlay: #00000020;
+  --overlay: #00000010;
 }
 
 [data-dark=true] {
-  --primary: #4a90e2; /* 夜间深蓝 */
-  --secondary: #2c3e50; /* 深灰蓝，稳重 */
-  --text: #eaeaea; /* 柔和白字 */
-  --background: #121212; /* 深色背景 */
-  --background-alt: #1c1c1c;
-  --light-gray: #3a3a3a;
+  --primary: #4a90e2; /* 夜间蓝色点缀 */
+  --secondary: #2c3e50; /* 深灰蓝 */
+  --text: #e0e0e0; /* 柔和白字 */
+  --background: #181a1b; /* 深灰背景（不是纯黑，避免压抑） */
+  --background-alt: #222426;
+  --light-gray: #444444;
   --gray: #8c8c8c;
   --dark-gray: #c0c0c0;
   --overlay: #ffffff10;
 }
 
 :root {
-  --title: "Merriweather", serif; /* 学术感强的衬线标题 */
-  --heading: "Lora", serif; /* 小标题保持稳重 */
-  --body: "Inter", sans-serif; /* 正文清晰现代 */
+  --title: "Merriweather", serif; /* 标题：学术衬线字体 */
+  --heading: "Lora", serif;
+  --body: "Inter", sans-serif; /* 正文：清晰易读 */
   --code: "Roboto Mono", monospace;
   --large: 1.1rem;
   --xl: 1.3rem;
@@ -35,11 +35,11 @@
   --regular: 400;
   --semi-bold: 600;
   --bold: 700;
-  --spacing: 1.8; /* 稍紧凑，保持专业 */
-  --compact: 1.4;
-  --rounded: 2px; /* 小圆角，更严肃 */
-  --shadow: 0 0 6px 0 var(--overlay); /* 更轻的阴影 */
-  --transition: 0.15s ease; /* 快速过渡 */
+  --spacing: 1.8;
+  --compact: 1.5;
+  --rounded: 2px;
+  --shadow: 0 2px 6px 0 var(--overlay);
+  --transition: 0.2s ease;
 }
 
 /*# sourceMappingURL=-theme.css.map */
