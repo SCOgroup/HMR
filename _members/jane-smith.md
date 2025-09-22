@@ -1,6 +1,6 @@
 ---
 name: Jane Smith
-image: images/photo.jpg
+image: images/jack.jpg
 role: Staff
 affiliation: University of Colorado
 aliases:
