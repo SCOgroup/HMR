@@ -1,44 +1,43 @@
-@charset "UTF-8";
 [data-dark=false] {
-  --primary: #003366; /* 深蓝作为强调色（按钮、链接、标题） */
-  --secondary: #4a6fa5; /* 次要蓝灰 */
-  --text: #222222; /* 深灰文字，比纯黑更柔和 */
-  --background: #ffffff; /* 主背景白色 */
-  --background-alt: #f8f9fb; /* 卡片/分区浅灰，层次感 */
-  --light-gray: #e5e5e5;
-  --gray: #7a7a7a;
-  --dark-gray: #3a3a3a;
-  --overlay: #00000010;
+  --primary: #0795d9;
+  --secondary: #7dd3fc;
+  --text: #000000;
+  --background: #ffffff;
+  --background-alt: #fafafa;
+  --light-gray: #e0e0e0;
+  --gray: #808080;
+  --dark-gray: #404040;
+  --overlay: #00000020;
 }
 
 [data-dark=true] {
-  --primary: #4a90e2; /* 夜间蓝色点缀 */
-  --secondary: #2c3e50; /* 深灰蓝 */
-  --text: #e0e0e0; /* 柔和白字 */
-  --background: #181a1b; /* 深灰背景（不是纯黑，避免压抑） */
-  --background-alt: #222426;
-  --light-gray: #444444;
-  --gray: #8c8c8c;
-  --dark-gray: #c0c0c0;
+  --primary: #0795d9;
+  --secondary: #075985;
+  --text: #ffffff;
+  --background: #181818;
+  --background-alt: #1c1c1c;
+  --light-gray: #404040;
+  --gray: #808080;
+  --dark-gray: #b0b0b0;
   --overlay: #ffffff10;
 }
 
 :root {
-  --title: "Merriweather", serif; /* 标题：学术衬线字体 */
-  --heading: "Lora", serif;
-  --body: "Inter", sans-serif; /* 正文：清晰易读 */
+  --title: "Barlow", sans-serif;
+  --heading: "Barlow", sans-serif;
+  --body: "Barlow", sans-serif;
   --code: "Roboto Mono", monospace;
-  --large: 1.1rem;
-  --xl: 1.3rem;
-  --xxl: 1.5rem;
-  --thin: 300;
+  --large: 1.2rem;
+  --xl: 1.4rem;
+  --xxl: 1.6rem;
+  --thin: 200;
   --regular: 400;
-  --semi-bold: 600;
-  --bold: 700;
-  --spacing: 1.8;
+  --semi-bold: 500;
+  --bold: 600;
+  --spacing: 2;
   --compact: 1.5;
-  --rounded: 2px;
-  --shadow: 0 2px 6px 0 var(--overlay);
+  --rounded: 3px;
+  --shadow: 0 0 10px 0 var(--overlay);
   --transition: 0.2s ease;
 }
 
